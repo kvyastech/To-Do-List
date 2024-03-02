@@ -1,4 +1,4 @@
-package com.spring.todolist;
+package com.spring.todolist.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,9 @@ import java.util.stream.StreamSupport;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.spring.todolist.model.ToDo;
+import com.spring.todolist.repo.Todorepo;
 
 @Service
 public class Tservice {

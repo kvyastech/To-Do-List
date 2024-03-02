@@ -1,4 +1,4 @@
-package com.spring.todolist;
+package com.spring.todolist.model;
 
 import java.sql.Date;
 
